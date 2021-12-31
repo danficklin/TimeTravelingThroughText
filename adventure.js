@@ -54,6 +54,16 @@ const textNodes = [
                 nextText: 2
             }
         ]
+    },
+        {
+            id: 2,
+            text: 'Last room.',
+            options: [
+                {
+                text: 'Congratulations. Play Again.',
+                nextText: -1
+                }
+            ]
     }
 ]
 
