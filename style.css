@@ -24,14 +24,14 @@ body {
     color: whitesmoke;
 }
 
-.button-grid {
+.btn-grid {
     display: grid;
     grid-template-columns: repeat (2, auto);
     gap: 10px;
     margin-top: 20px;
 }
 
-.button {
+.btn {
     background-color: red;
     border: 1px solid lightcoral;
     border-radius: 5px;
@@ -40,6 +40,6 @@ body {
     outline: none;
 }
 
-.button:hover {
+.btn:hover {
     border-color: black;
 }
