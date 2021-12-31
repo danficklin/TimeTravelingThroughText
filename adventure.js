@@ -47,14 +47,14 @@ options: [
     {
     text: 'Gather the shards of glass.',
     setState: { glassShards: true },
-    setState: { injured: true }
+    setState: { injured: true },
     nextText: 2
     },
     {
     text: 'Pick up the crowbar',
-    setState: {crowbar: true}
+    setState: {crowbar: true},
     nextText: 3
-    }
+    },
     {
         text: 'Enter the house.',
         nextText: 4
