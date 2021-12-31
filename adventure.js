@@ -1,5 +1,5 @@
 const textElement = document.getElementById('text')
-const optionButtonsElement = document.getElementById('option-buttons')
+const optionButtonsElement = document.getElementById('options')
 
 let state = {}
 
