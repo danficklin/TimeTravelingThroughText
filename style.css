@@ -12,6 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: slategray;
+    text-shadow: red;
 }
 
 .container {
@@ -22,7 +23,6 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
     color: whitesmoke;
-    text-shadow: blueviolet;
 }
 
 .btn-grid {
