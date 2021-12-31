@@ -67,7 +67,6 @@ text: 'You cut your hands on the glass, but manage to gather some of the shards 
 options: [
     {
     text: 'Pick up the crowbar.',
-    requiredState: (currentState) => currentState.crowbar,
     setState: { crowbar: true },
     nextText: 4
     },
@@ -79,7 +78,7 @@ options: [
 },
 {
     id: 3,
-    text: 'text',
+    text: 'text3',
     options: [
         {
         text: 'option',
@@ -91,6 +90,21 @@ options: [
         }
     ]
     },
+
+    {
+        id: 4,
+        text: 'text4',
+        options: [
+            {
+            text: 'option',
+            nextText: 4
+            },
+            {
+            text: 'option2',
+            nextText: 5
+            }
+        ]
+        },
 ]
 
 startGame()
